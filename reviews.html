@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>homePage</title>
+</head>
+<body>
+
+  <header>
+    <h1 id="company">You Pet'cha! Pet Sitting Services</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <img id="logo" src="imgs/logo.png" alt="You Pet'cha! logo">
+  </nav>
+
+  <main class="reviewIntro">
+    <h2>Welcome to Our Review Page!</h2>
+    <p>Check out some of our reviews, or submit a review for us!</p>
+  </main>
+  <div class="review">
+    <img id="quint2" src="imgs/quint2.jpg" alt="black dog smiling and laying on carpet">
+    <p>My dog Quint gets stressed out when no one is home. It's been a relief having
+    a staff I can trust come and take care of my handsome lil guy. And to top it off,
+    loves it when they come and hang out with him!</p>
+  </div>
+  <form class="submitReview" action="index.html" method="post">
+    <label for="name">*Name: </label>
+    <input type="text" name="name" required>
+    <label for="review">*Review:</label>
+    <textarea name="review" rows="8" cols="40" required></textarea>
+  </form>
+
+  <footer>Copyright &copy; You Pet'Cha! Pet sitting services 2021</footer>
+
+</body>
+</html>

@@ -1,0 +1,395 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #7590B6;
+  height: 100px;
+  color: #433889;
+  text-align: center;
+  border-bottom: 5px solid #433889;
+}
+#company {
+  font-size: 24px;
+  text-align: center;
+  line-height: 100px;
+}
+body {
+  background-color: #A9BDD8;
+}
+
+nav {
+  height: 50px;
+  background-color: #867DBE;
+  width: 100%;
+  border-bottom: 2px solid #433889;
+
+}
+nav li{
+  background-color: #867DBE;
+  height: 20px;
+  margin-top: 8px;
+  text-shadow: 1px 2px 3.5px #B5AFDC;
+  list-style: none;
+  float: left;
+  padding: 5px;
+  border-right: 2px solid #B5AFDC;
+}
+
+nav a{
+  color: #433889;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 1px 2px 3.5px #B5AFDC;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid #A4D6CB;
+  color: #A9BDD8;
+  text-shadow: none;
+  font-weight: bolder;
+}
+
+#logo {
+  float: right;
+}
+
+#puppy {
+  width: 100vw;
+  border-bottom: 8px solid #433889;
+}
+
+main {
+  color: #1D3E6B;
+}
+
+.homePage {
+  background-color: #A9BDD8;
+  padding: 15px;
+}
+
+.homePage p {
+  margin-top: 15px;
+}
+
+.catHours {
+  border-top: 8px solid #433889;
+  display: flex;
+}
+
+.hours {
+  background-color: #B5AFDC;
+  color: #1D3E6B;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hours h2 {
+  padding-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+.catHours img, .hours{
+  width: 50%;
+}
+
+footer {
+  background-color: #7590B6;
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.splitPuppy {
+  display: none;
+}
+
+
+/********************* ABOUT PAGE */
+#happyDog {
+  width: 100vw;
+  border-bottom: 5px solid #433889;
+  margin: 0;
+}
+
+.aboutUs {
+  border: 2px dashed #433889;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.aboutUs h2 {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.quint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quint p {
+  color: #1D3E6B;
+  background-color: #B5AFDC;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+/**************PRICING PAGE */
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+  padding: 10px;
+}
+
+table {
+  margin-top: 5px;
+  background-color: #867DBE;
+  border: 1px solid #433889;
+  border-collapse: collapse;
+}
+
+table caption {
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+tr,th,td {
+  padding: 5px;
+  border: 1px solid #433889;
+}
+
+.priceIntro {
+  padding: 10px;
+  margin: 0 auto;
+  color: #1D3E6B;
+  border-bottom: 3px solid #433889;
+}
+
+.priceIntro h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/**************REVIEWS PAGE */
+#quint2 {
+  width: 100px;
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.review p {
+  padding: 8px;
+  background-color: #A4D6CB;
+  border-top: 2px solid #6DB3A3;
+  border-right: 2px solid #6DB3A3;
+  border-bottom: 2px solid #6DB3A3;
+  border-radius: 5px;
+}
+
+.reviewIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.submitReview {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60%;
+}
+
+/************** CONTACT PAGE */
+.contactItems {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#kitten {
+  width: 180px;
+  margin-right: 20px;
+  padding-left: 2px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  padding: 25px;
+  border: 2px solid #433889;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+#submitButton {
+  margin: 40px auto;
+  padding: 2px;
+}
+
+.contactTextMobile {
+  padding: 15px;
+  color: #1D3E6B;
+}
+
+.contactTextMobile h2{
+  padding-bottom: 10px;
+}
+
+.contactText{
+  display: none;
+}
+
+/*---------------------------------------------- Tablet Query */
+@media only screen and (min-width: 768px) {
+  nav li{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  #puppy {
+    width: 60%;
+    border: none;
+  }
+
+  main {
+    display: flex;
+  }
+
+  .homePage {
+  border-top: 5px solid #433889;
+  }
+
+  .homePage p {
+    padding: 25px;
+  }
+
+  main h2 {
+    text-align: center;
+  }
+
+  .catHours {
+    flex-direction: row-reverse;
+  }
+
+  .hours {
+    padding: 30px;
+  }
+
+  .hours h2{
+    font-size: 26px;
+    margin-bottom: 40px;
+    border-bottom: 2px dashed #433889;
+  }
+
+  /******** ABOUT PAGE */
+  #happyDog {
+    width: 75%;
+  }
+
+  /*******PRICING PAGE */
+  .pricing {
+    margin: 0 25%;
+  }
+
+  .priceIntro {
+    padding: 10px 30px;
+  }
+
+  /******REVIEWS PAGE */
+  .submitReview {
+    width: 50%;
+  }
+
+  /****CONTACT PAGE  */
+  #kitten {
+    width: 25%;
+  }
+  .contactText {
+    display: block;
+    margin: 20px;
+    padding: 15px;
+    color: #1D3E6B;
+    border-top: 5px ridge #433889;
+  }
+
+  .contactText p {
+    padding-top: 25px;
+    padding-bottom: 100px;
+    border-bottom: 5px groove #433889;
+  }
+
+  .contactTextMobile {
+    display: none;
+  }
+}
+/*-------------------------------------------- Desktop Query */
+@media only screen and (min-width: 1200px) {
+  nav li {
+    width: 16%;
+    padding: 10px;
+    text-align: center;
+}
+  .twoSections {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .catHours {
+    flex-direction: row;
+    background-color: #B5AFDC;
+    justify-content: center;
+    border: none;
+  }
+  #cat , .hours {
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 8px dotted #433889;
+  }
+  .hours {
+    border-right: 8px dotted #433889;
+  }
+  #puppy {
+    display: none;
+  }
+  .splitPuppy {
+    display: block;
+  }
+
+  .homePage {
+    border: 2px solid #433889;
+    margin: 15px;
+    padding-top: 15px;
+    border-top: 2px solid #433889;
+    padding: 10px;
+  }
+
+  /* ************** ABOUT PAGE */
+
+#happyDog {
+  width: 50%;
+  border: none;
+}
+
+/******REVIEWS PAGE */
+.submitReview {
+  width: 40%;
+}
